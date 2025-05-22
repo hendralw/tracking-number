@@ -2,6 +2,7 @@
 FROM maven:3.8.7-eclipse-temurin-17 as builder
 WORKDIR /app
 COPY . .
+RUN chmod +x ./mvnw
 RUN ./mvnw clean package -DskipTests
 
 # Stage 2: Run the jar
