@@ -42,6 +42,10 @@ A scalable and efficient REST API that generates unique tracking numbers for par
 
 ## ☁️ Deployment
 
+This API is deployed and publicly accessible at:
+
+https://tracking-number-v6jl.onrender.com
+
 Supports deployment to platforms like:
 
 - ✅ [Render](https://render.com)
@@ -136,7 +140,7 @@ Returns a list of all generated tracking numbers.
 ### Generate a Tracking Number
 
 ```bash
-curl -G http://localhost:8080/next-tracking-number \
+curl -G https://tracking-number-v6jl.onrender.com/next-tracking-number \
   --data-urlencode "origin_country_id=MY" \
   --data-urlencode "destination_country_id=ID" \
   --data-urlencode "weight=1.234" \
@@ -149,7 +153,7 @@ curl -G http://localhost:8080/next-tracking-number \
 ### Get All Tracking Numbers
 
 ```bash
-curl http://localhost:8080/tracking-numbers
+curl https://tracking-number-v6jl.onrender.com/tracking-numbers
 ```
 
 ---
