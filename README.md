@@ -46,6 +46,10 @@ This API is deployed and publicly accessible at:
 
 https://tracking-number-v6jl.onrender.com
 
+![image](https://github.com/user-attachments/assets/e7175085-11d5-4924-82b6-4aee668c5e6f)
+
+*Notes: Please wait until the application has fully loaded. This may happen due to limitations of the free hosting version.*
+
 Supports deployment to platforms like:
 
 - ✅ [Render](https://render.com)
